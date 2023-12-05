@@ -1,0 +1,12 @@
+<form (ngSubmit)="login()">
+    <h2>Se connecter</h2>
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" required [(ngModel)]="username" name="username">
+  
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" required [(ngModel)]="password" name="password">
+  
+    <button type="submit">Se connecter</button>
+    <p class="signin-link">Vous n'avez pas de compte ? <a href="../signUp">S'inscrire </a></p>
+  </form>
+  

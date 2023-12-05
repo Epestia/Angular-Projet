@@ -1,0 +1,6 @@
+new app angular 
+ ng new (nom)
+lancer le serveur 
+ng serve
+recuperer fichier angular et node js 
+npm installs

@@ -1,0 +1,52 @@
+
+
+footer {
+  background-color: var(--footer-bg-color);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0; /* Ajout de padding pour un meilleur espacement */
+  --footer-bg-color: #ffcc80; /* Couleur chaleureuse, ajuste selon tes préférences */
+  --text-color: #6c757d; /* Couleur du texte, ajuste selon tes préférences */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px; /* Augmentation de la marge entre les éléments */
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s ease; /* Ajout d'une transition pour un effet visuel lors du survol */
+}
+
+a:hover {
+  color: #000; /* Changement de couleur au survol */
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  color: var(--text-color);
+}
+.icone-reseau-sociaux {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icone-reseau-sociaux img {
+  width: 20px; 
+  height: 20px; 
+}
+
+.icone-reseau-sociaux:last-child {
+  margin-left: auto;
+}
